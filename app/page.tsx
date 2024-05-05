@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <form action={toSameOriginWithDiffBasepath}>
-        <button type="submit">redirect</button>
+        <button type="submit">redirect external</button>
       </form>
     </>
   );

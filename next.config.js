@@ -5,8 +5,8 @@ const nextConfig = {
   rewrites: async () => {
     return [
       {
-        source: '/bing/:path*',
-        destination: 'https://bing.com/:path*',
+        source: '/external',
+        destination: 'https://example.vercel.sh',
         basePath: false
       }
     ]

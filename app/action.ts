@@ -3,5 +3,5 @@
 import { redirect } from "next/navigation";
 
 export async function toSameOriginWithDiffBasepath() {
-  redirect("http://localhost:3000/bing")
+  redirect("http://localhost:3000/external")
 }
