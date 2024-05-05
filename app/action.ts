@@ -2,6 +2,6 @@
 
 import { redirect } from "next/navigation";
 
-export async function toSameOriginWithDiffBasepath() {
-  redirect("http://localhost:3000/external")
+export async function toSameOriginWithDiffBasepath(url: string) {
+  redirect(url)
 }
